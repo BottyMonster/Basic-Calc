@@ -4,7 +4,7 @@ import streamlit as st
 # Page config
 st.set_page_config(page_title="Battle Nexus Discount Calculator (ex VAT)", layout="centered")
 
-st.title("🧮 Simple Discount Calculator")
+st.title("🧮 Battle Nexus Discount Calculator")
 
 st.markdown("Enter your product's current price (including VAT), the ex-VAT cost, and a discount %.")
 st.markdown("The calculator shows the final **sale price**, **profit**, and **margin** in real time.")

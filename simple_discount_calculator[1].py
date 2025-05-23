@@ -2,7 +2,7 @@
 import streamlit as st
 
 # Page config
-st.set_page_config(page_title="Simple Discount Calculator (ex VAT)", layout="centered")
+st.set_page_config(page_title="Battle Nexus Discount Calculator (ex VAT)", layout="centered")
 
 st.title("🧮 Simple Discount Calculator")
 

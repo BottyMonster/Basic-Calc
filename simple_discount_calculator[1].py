@@ -27,7 +27,7 @@ elif margin < 6:
 elif margin >= 10:
     color = "green"
 else:
-    color = "black"
+    color = "white"
 
 # Output with styled markdown
 st.markdown("### 📉 Calculated Results")

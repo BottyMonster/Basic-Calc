@@ -10,7 +10,7 @@ st.markdown("Enter your product's current price (including VAT), the ex-VAT cost
 st.markdown("The calculator shows the final **sale price**, **profit**, and **margin** in real time.")
 
 # Inputs
-current_price_inc_vat = st.number_input("Current Price (Inc VAT)", min_value=0.0, step=0.01, format="%.2f")
+current_price_inc_vat = st.number_input("Current Sale Price (Inc VAT)", min_value=0.0, step=0.01, format="%.2f")
 cost_price_ex_vat = st.number_input("Cost Price (Ex VAT)", min_value=0.0, step=0.01, format="%.2f")
 discount_percent = st.number_input("Discount %", min_value=0.0, max_value=100.0, step=0.1, format="%.1f")
 
